@@ -5,7 +5,6 @@ import "fmt"
 func test01(arr [3]int) {
 	arr[0] = 88
 }
-
 func test02(arr *[3]int) {
 	(*arr)[0] = 88
 }
