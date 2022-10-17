@@ -14,6 +14,7 @@ import "fmt"
 //		fmt.Printf("i=%v v=%v \n", i, v)
 //	}
 //}
+
 func main() {
 	var arr [5]int = [...]int{10, 20, 30, 40, 50}
 	slice := arr[1:4]
@@ -23,6 +24,6 @@ func main() {
 	fmt.Println()
 
 	for i, v := range slice {
-		fmt.Printf("i=%v v=%v \n", i, v)
+		fmt.Printf("i =%v v =%v \n", i, v)
 	}
 }
