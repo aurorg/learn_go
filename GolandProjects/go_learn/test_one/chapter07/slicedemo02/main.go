@@ -23,7 +23,9 @@ func main() {
 	}
 	fmt.Println()
 
-	for i, v := range slice {
-		fmt.Printf("i =%v v =%v \n", i, v)
+	for i := 0; i < len(slice); i++ {
+		fmt.Printf("slice[%v]=%v ", i, slice[i])
 	}
+	
+	fmt.Println()
 }
