@@ -26,6 +26,6 @@ func main() {
 	for i := 0; i < len(slice); i++ {
 		fmt.Printf("slice[%v]=%v ", i, slice[i])
 	}
-	
+
 	fmt.Println()
 }

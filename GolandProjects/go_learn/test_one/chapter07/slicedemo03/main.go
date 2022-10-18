@@ -9,7 +9,7 @@ func main() {
 		fmt.Printf("slice[%v]=%v ", i, slice[i])
 	}
 	for i, v := range slice {
-		fmt.Printf("i-=%v v=%v \n", i, v)
+		fmt.Printf("i=%v v=%v \n", i, v)
 	}
 	//继续切片
 	slice2 := slice[1:2]
