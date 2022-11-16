@@ -32,10 +32,12 @@ func main() {
 	var num4 float64 = 23.456
 	var b2 bool = true
 
-	str = strconv.FormatInt(int64(num3), 10)
+	str = strconv.FormatInt(int64(num3), 10) //base表示几进制
 	fmt.Printf("str type %T str=%q\n", str, str)
 
-	str = strconv.FormatFloat(num4, 'f', 10, 64)
+	//bitSize表示f的来源类型（32：float32、64：float64），会据此进行舍入。
+	//fmt表示格式：'f'（-ddd.dddd）、'b'（-ddddp±ddd，指数为二进制）、'e'（-d.dddde±dd，十进制指数）、'E'（-d.ddddE±dd，十进制指数）、'g'（指数很大时用'e'格式，否则'f'格式）、'G'（指数很大时用'E'格式，否则'f'格式）。
+	str = strconv.FormatFloat(num4, 'f', 10, 64) //prec控制精度（10表示10位）
 	fmt.Printf("str type %T str=%q\n", str, str)
 
 	str = strconv.FormatBool(b2)
