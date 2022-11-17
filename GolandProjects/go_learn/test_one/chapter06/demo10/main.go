@@ -45,6 +45,6 @@ func main() {
 	fmt.Println("文件处理后=", f1("hahaha.jpg"))
 
 	//普通方法每一次都要传入后缀
-	fmt.Println("文件处理后=", makeSuffix2("jpg", "winter"))
-	fmt.Println("文件处理后=", makeSuffix2("jpg", "hahaha.jpg"))
+	fmt.Println("文件处理后=", makeSuffix2(".jpg", "winter"))
+	fmt.Println("文件处理后=", makeSuffix2(".jpg", "hahaha.jpg"))
 }
