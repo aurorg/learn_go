@@ -17,7 +17,8 @@ func AddUpper() func(int) int {
 	}
 }
 
-// 返回的匿名函数和makeSuffix(suffix string)的suffix变量和返回的函数组合成一个闭包，因为返回的函数引用到suffix这个变量
+// 返回的匿名函数和makeSuffix(suffix string)的suffix变量和返回的函数组合成一个闭包，
+// 因为返回的函数引用到suffix这个变量
 func makeSuffix(suffix string) func(string) string {
 	return func(name string) string {
 		if !strings.HasSuffix(name, suffix) {
