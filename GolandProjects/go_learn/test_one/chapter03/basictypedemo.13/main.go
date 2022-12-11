@@ -48,3 +48,13 @@ func main() {
 	str = strconv.Itoa(num5)
 	fmt.Printf("str type %T str=%q\n", str, str)
 }
+
+//输出：
+//str type string str=99
+//str type string str="23.455600"
+//str type string str="true"
+//str type string str="h"
+//str type string str="99"
+//str type string str="23.4560000000"
+//str type string str="true"
+//str type string str="2341"

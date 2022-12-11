@@ -14,7 +14,7 @@ func main() {
 	//2.目前只需要获取value bool，不需要获取err，所以采用_忽略
 
 	b, _ = strconv.ParseBool(str)
-	fmt.Printf("b typr %T b=%v", b, b)
+	fmt.Printf("b type %T ,b=%v\n", b, b)
 
 	var str2 string = "123456978"
 	var n1 int64
@@ -24,3 +24,8 @@ func main() {
 	fmt.Printf("n1 type %T ,n1=%v\n", n1, n1)
 	fmt.Printf("n2 type %T ,n2=%v\n", n2, n2)
 }
+
+//输出：
+//b type bool ,b=true
+//n1 type int64 ,n1=123456978
+//n2 type int ,n2=123456978
