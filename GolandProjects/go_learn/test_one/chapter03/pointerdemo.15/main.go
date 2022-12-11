@@ -13,6 +13,10 @@ func main() {
 	//ptr是一个指针变量
 	//ptr的类型是 *int
 	//ptr本身的值是&i
-	fmt.Println("ptr=%v", ptr)
+	fmt.Println("ptr=", &ptr)
 	fmt.Printf("ptr指向的值=%v", *ptr)
 }
+
+//i的地址= 0xc000026088
+//ptr= 0xc000012030
+//ptr指向的值=10
