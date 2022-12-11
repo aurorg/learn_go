@@ -30,5 +30,5 @@ func main() {
 
 	str = string([]byte{97, 98, 99})
 	fmt.Printf("str=%v\n", str)
-	
+
 }

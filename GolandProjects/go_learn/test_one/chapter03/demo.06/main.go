@@ -26,4 +26,5 @@ func main() {
 	fmt.Printf("n2的类型是：%T ,n2占用的字节数是%d ", n2, unsafe.Sizeof(n2))
 
 	//保小不保大
+
 }
