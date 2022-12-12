@@ -20,3 +20,8 @@ func main() {
 	var s = str1 + str2 //拼接
 	fmt.Println(s)
 }
+
+//
+//i= 50
+//c= 3
+//hello world
