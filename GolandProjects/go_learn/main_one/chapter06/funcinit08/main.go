@@ -1,7 +1,7 @@
 package main
 
 import (
-	"awesomeProject/test_one/chapter06/funcinit08/utils"
+	"awesomeProject/main_one/chapter06/funcinit08/utils"
 	"fmt"
 )
 
